@@ -33,7 +33,7 @@ def render():
         st.markdown("#### 🔐 Connection Settings")
         imap_server = st.text_input(
             "IMAP Server", 
-            value="mail.amorstechhost.com",
+            value="imap.gmail.com",
             help="Enter your IMAP server address (e.g., imap.gmail.com)"
         )
         
